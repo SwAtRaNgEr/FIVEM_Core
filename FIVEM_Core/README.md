@@ -12,7 +12,6 @@ FIVEM_Core is a gamemoded developed for server usage.
 
 ## Contribute
 if you are a developer and  would like to contribute any help is welcome!   
-The contribution guide can be found [here](CONTRIBUTING.MD).
 
 ## Disclaimer
 - Everything submitted to the repository must be in source.That meaning any soft of obfuscated files, binary files, passworded files, and/or encrypted files will immediately removed (unless the file is a representation of the latest compiled **compatible AND working version** of which this file must only be binary source and include a virustotal scan).
