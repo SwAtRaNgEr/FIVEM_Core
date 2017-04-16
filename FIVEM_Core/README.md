@@ -1,36 +1,14 @@
-# es_freeroam v0.1.3
-<a href="https://discord.gg/eNJraMf"><img alt="Discord Status" src="https://discordapp.com/api/guilds/285462938691567627/widget.png"></a>
+# FIVEM_Core V0.1
 
-es_freeroam is a FiveM game mode with a money system.  
-The player can receive jobs, survivals, buy buildings, drugs and many more.
-
- **Note:
-This project brings developers together to work on a script that can be used for different types of servers.  
-Have some respect for the people that contribute to this project and don't just copy/paste our time and work that we put in this project, instead [contribute](CONTRIBUTING.MD).**
-
-## Changelog
-You can find our changelog [here](CHANGELOG.md)
+FIVEM_Core is a gamemoded developed for server usage. 
 
 ## Requirements
-- [Essentialmode](https://github.com/FiveM-Scripts/essentialmode)
+- []()
 
 ## Installation
-1. [Download](https://github.com/FiveM-Scripts/es_freeroam/archive/master.zip)
-2. Extract the folder and rename it to es_freeroam
-3. Place the folder in your resources/[essential] folder
-4. Change **resource_type 'map' { gameTypes = { fivem = true } }**   
-to    
-**resource_type 'map' { gameTypes = { es_freeroam = true } }**  
-in your fivem-map-skater or fivem-map-hipster resource.lua file.
-5. Add - es_freeroam to your AutoStartResources in citmp-server.yml
-6. Open **resources/[essential]/es_freeroam/config.lua** and change your database settings.
-7. Add a new column to your users table personalvehicle VARCHAR(60)
-8. Restart your server
-
-## Upgrade
-Since the last upgrade we integrated the vehicle shop directly in es_freeroam.   
-For that reason you need to remove es_vehshop from your citmp-server.yml.   
-After that Open **resources/[essential]/es_freeroam/config.lua** and change your database settings.   
+1. Download the FIVEM_Core and place it into the server resouces.
+2. update citmp-server.yml and place -FIVE_Core
+3. Restart your server
 
 ## Contribute
 if you are a developer and  would like to contribute any help is welcome!   
