@@ -3,8 +3,7 @@
 -----------------
 resource_manifest_version '77731fab-63ca-442c-a67b-abc70f28dfa5'
 description 'Gamemode from Ranger.'
-resource_type 'gametype' { name = 'FIVEM_Core
-'}
+resource_type 'gametype' { name = 'FIVEM_Core'}
 server_scripts {
         "main.lua",
         "cmds/911.lua",
