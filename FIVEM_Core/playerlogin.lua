@@ -1,0 +1,1 @@
+TriggerServerEvent("CGC:newplayer")
