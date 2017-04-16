@@ -1,27 +1,16 @@
 -----------------
 --FIVEM Script --
 -----------------
-RegisterServerEvent("chatCommandEntered")
 RegisterServerEvent("chatMessageEntered")
 RegisterServerEvent("CGC:newplayer")
---- chat message required ---
-players = {}
-
-AddEventHandler("CGC:newplayer", function()
-    players[source] = rank_civ
-end)
-
-AddEventHandler("playerDropped", function(reason)
-    players[source] = nil
-end)
+RegisterServerEvent("chatCommandEntered")
 
 AddEventHandler("chatMessage", function(p, color, msg)
     if msg:sub(1, 1) == "/" then
         fullcmd = stringSplit(msg, " ")
         handleCmd(p, fullcmd)
+        CancelEvent()
     end
-    
-    CancelEvent()
 end)
 
 function handleCmd(p, fullcmd)
@@ -103,7 +92,7 @@ function makeArgs(cmd)
     return args
 end
 
--- Utils (WON´T WORK IN CLIENT-SIDED SCRIPTS) --
+-- Utils (WONÂ´T WORK IN CLIENT-SIDED SCRIPTS) --
 
 function stringSplit(self, delimiter)
   local a = self:Split(delimiter)
@@ -150,8 +139,8 @@ new_line = "~n~"
 white2 = "~s~"
 bold = "~h~"
 rockstar = "?"
-rockstar2 = "÷"
-rockstar_verified = "¦"
+rockstar2 = "Ã·"
+rockstar_verified = "Â¦"
 
 prefix_info = "[INFO] " .. orange
 prefix_police = "[Police] " .. blue
